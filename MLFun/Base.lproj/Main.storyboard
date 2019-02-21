@@ -14,15 +14,52 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" userLabel="Camera View Controller" customClass="ViewController" customModule="MLFun" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="mcP-cp-pnk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XhE-t7-VQ3" userLabel="Camera Preview">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bQs-dk-bza">
+                                <rect key="frame" x="0.0" y="493" width="375" height="174"/>
+                                <connections>
+                                    <segue destination="4f8-yY-hgY" kind="embed" id="nhQ-EL-Dwb"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XhE-t7-VQ3" firstAttribute="bottom" secondItem="v65-7E-qby" secondAttribute="bottom" id="Ihi-u0-3DL"/>
+                            <constraint firstItem="bQs-dk-bza" firstAttribute="top" secondItem="v65-7E-qby" secondAttribute="top" constant="473" id="NAF-0m-y3w"/>
+                            <constraint firstAttribute="trailing" secondItem="XhE-t7-VQ3" secondAttribute="trailing" id="QpR-Ir-MjE"/>
+                            <constraint firstItem="XhE-t7-VQ3" firstAttribute="bottom" secondItem="bQs-dk-bza" secondAttribute="bottom" id="hPg-Mn-XO7"/>
+                            <constraint firstItem="XhE-t7-VQ3" firstAttribute="trailing" secondItem="bQs-dk-bza" secondAttribute="trailing" id="ifU-BL-HPy"/>
+                            <constraint firstItem="XhE-t7-VQ3" firstAttribute="top" secondItem="mcP-cp-pnk" secondAttribute="top" id="kpB-Q4-s9p"/>
+                            <constraint firstItem="XhE-t7-VQ3" firstAttribute="leading" secondItem="mcP-cp-pnk" secondAttribute="leading" id="r2x-TH-AHt"/>
+                            <constraint firstItem="XhE-t7-VQ3" firstAttribute="leading" secondItem="bQs-dk-bza" secondAttribute="leading" id="rmg-1v-1dT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="v65-7E-qby"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="616.79999999999995" y="-100.29985007496252"/>
+        </scene>
+        <!--Classification Controller-->
+        <scene sceneID="1Pl-Te-49s">
+            <objects>
+                <viewController id="4f8-yY-hgY" userLabel="Classification Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5bP-qC-nbP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="npJ-Bm-Lfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1434" y="121"/>
         </scene>
     </scenes>
 </document>
