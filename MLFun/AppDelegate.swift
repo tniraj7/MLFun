@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  MLFun
-//
-//  Created by Tiwari, Niraj | Nero | OSPD on 2019/02/21.
-//  Copyright © 2019 Niraj Tiwari. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

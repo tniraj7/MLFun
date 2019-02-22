@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		34562C7E221E71E100B45402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34562C7D221E71E100B45402 /* AppDelegate.swift */; };
-		34562C80221E71E100B45402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34562C7F221E71E100B45402 /* ViewController.swift */; };
 		34562C83221E71E100B45402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34562C81221E71E100B45402 /* Main.storyboard */; };
 		34562C85221E71E100B45402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34562C84221E71E100B45402 /* Assets.xcassets */; };
 		34562C88221E71E100B45402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34562C86221E71E100B45402 /* LaunchScreen.storyboard */; };
+		3494A446221FC468004D724B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3494A445221FC468004D724B /* CameraViewController.swift */; };
+		3494A448221FC5B9004D724B /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3494A447221FC5B9004D724B /* CameraPreviewView.swift */; };
+		3494A44A221FD066004D724B /* MLClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3494A449221FD066004D724B /* MLClassifyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34562C7A221E71E100B45402 /* MLFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34562C7D221E71E100B45402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34562C7F221E71E100B45402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34562C82221E71E100B45402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34562C84221E71E100B45402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34562C87221E71E100B45402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34562C89221E71E100B45402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3494A445221FC468004D724B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		3494A447221FC5B9004D724B /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		3494A449221FD066004D724B /* MLClassifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLClassifyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				34562C7D221E71E100B45402 /* AppDelegate.swift */,
-				34562C7F221E71E100B45402 /* ViewController.swift */,
+				3494A445221FC468004D724B /* CameraViewController.swift */,
 				34562C81221E71E100B45402 /* Main.storyboard */,
 				34562C84221E71E100B45402 /* Assets.xcassets */,
 				34562C86221E71E100B45402 /* LaunchScreen.storyboard */,
 				34562C89221E71E100B45402 /* Info.plist */,
+				3494A447221FC5B9004D724B /* CameraPreviewView.swift */,
+				3494A449221FD066004D724B /* MLClassifyViewController.swift */,
 			);
 			path = MLFun;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34562C80221E71E100B45402 /* ViewController.swift in Sources */,
 				34562C7E221E71E100B45402 /* AppDelegate.swift in Sources */,
+				3494A446221FC468004D724B /* CameraViewController.swift in Sources */,
+				3494A448221FC5B9004D724B /* CameraPreviewView.swift in Sources */,
+				3494A44A221FD066004D724B /* MLClassifyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
